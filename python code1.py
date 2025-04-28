@@ -19,7 +19,7 @@ if len(numerical_cols) >= 2:
     plt.title(f"Scatter Plot: {numerical_cols[0]} vs {numerical_cols[1]}")
     plt.tight_layout()
     plt.show()
-
+#
 # 2️⃣ Area Plot
 if 'Model Year' in df.columns:
     year_data = df['Model Year'].value_counts().sort_index()
