@@ -5,7 +5,7 @@ import seaborn as sns
 # Load CSV
 file_path = r"C:\Users\asus\OneDrive\Attachments\python project\Electric_Vehicle_Population_Data.csv"
 df = pd.read_csv(file_path)
-#
+#gggggggg
 # Auto-detect columns
 numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns
 categorical_cols = df.select_dtypes(include=['object', 'category']).columns
