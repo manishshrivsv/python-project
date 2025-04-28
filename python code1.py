@@ -11,7 +11,7 @@ numerical_cols = df.select_dtypes(include=['int64', 'float64']).columns
 categorical_cols = df.select_dtypes(include=['object', 'category']).columns
 
 sns.set(style="whitegrid")
-
+#
 # 1️⃣ Scatter Plot
 if len(numerical_cols) >= 2:
     plt.figure(figsize=(8, 5))
