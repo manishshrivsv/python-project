@@ -51,7 +51,7 @@ if 'Make' in df.columns:
     plt.legend(top_makes.index, title="Make", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
     plt.tight_layout()
     plt.show()
-
+#
 # 5️⃣ Violin Plot
 if len(numerical_cols) >= 1 and 'Electric Vehicle Type' in df.columns:
     plt.figure(figsize=(8, 5))
